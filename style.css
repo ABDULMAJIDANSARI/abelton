@@ -1349,12 +1349,12 @@ body {
 
     .nabvar-second {
         width: 98%;
-        border: 2px solid;
+    
     }
 
     .image {
         width: 83%;
-        margin-left: 2%
+        margin-left: 2%;
     }
 
     .content h3 {
@@ -1386,7 +1386,6 @@ body {
     .photo-1 {
         width: 40%;
         height: 85%;
-
         top: 7%;
 
     }
