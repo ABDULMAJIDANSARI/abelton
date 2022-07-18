@@ -92,8 +92,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     height: 50px;
+    padding-top: 19px;
     padding-left: 1.3rem;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -188,59 +189,58 @@ body {
 
 .container {
     display: flex;
+    justify-content: center;
     max-width: 1500px;
+    height: 800px;
     margin-left: auto;
     margin-right: auto;
-    height: 800px;
     padding-top: 100px;
     position: relative;
-
-
-
-
-
 }
 
-.background-1 {
-    width: 800px;
-    height: 800px;
-    background-color: #FBFFA7;
-    position: absolute;
-    right: 0;
-
-}
 
 .photo-1 {
-    width: 610px;
-    height: 604px;
-    position: relative;
-    left: 8%;
-    top: 14%;
-
-
+    display: flex;
+    
+    width: 570px;
+    height: 600px;
+    padding-top: 7%;
+    
 
 }
 
 .photo-1 img {
-    width: 550px;
-    height: 604px;
+    width: 570px;
+    height: 600px;
+    position: relative;
+    z-index: 1
+
 }
 
 .photo-2 {
-    width: 510px;
-    height: 385px;
-    position: absolute;
-    right: 6%;
-    margin-top: 14%;
-
+    display: flex;
+    justify-content: end;
+    width: 430px;
+    height: 429px;
+    padding-left: 10%;
+    padding-top: 17%;
 
 
 }
 
 .photo-2 img {
-    width: 480px;
-    height: 370px;
-    margin-left: 0px;
+    width: 430px;
+    height: 335px;
+    position: absolute;
+    z-index: 1;
+}
+
+.background-1 {
+    width: 770px;
+    height: 800px;
+    background-color: rgb(251, 255, 167);
+    position: absolute;
+    right: 0px;
 }
 
 .content-1 {
@@ -259,14 +259,14 @@ body {
 
 .content-1 h2 {
 
-    width: 800px;
-    font-size: 20px;
+    width: 695px;
+    font-size: 25px;
     line-height: 40px;
-    letter-spacing: 1px;
+    letter-spacing: 1px
 }
 
 .content-1 p {
-    width: 800px;
+    width: 695px;
     font-size: 18px;
     line-height: 30px;
     letter-spacing: .5px;
@@ -276,13 +276,18 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width: 840px;
+    max-width: 740px;
     margin-left: auto;
     margin-right: auto;
     background-position: center;
     padding-top: 100px;
 
 
+
+}
+
+.video iframe {
+    text-align: center;
 }
 
 .download {
@@ -408,7 +413,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 900px;
+    max-width: 740px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 100px;
@@ -416,10 +421,10 @@ body {
 }
 
 .content-second-2 h2 {
-    font-size: 25px;
-    line-height: 30px;
-    letter-spacing: 1px;
-    font-weight: normal;
+    font-size: 27px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    font-weight: bold;
 }
 
 .content-second-2 p {
@@ -431,11 +436,10 @@ body {
 
 .image-1 {
     display: flex;
-    max-width: 1100px;
+    max-width: 1050px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 100px;
-    box-sizing: border-box;
 }
 
 .image-1 img {
@@ -447,22 +451,22 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 900px;
+    max-width: 740px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 100px;
 }
 
 .content-2 h2 {
-    font-size: 25px;
-    line-height: 30px;
-    letter-spacing: 1px;
+    font-size: 27px;
+    line-height: 37px;
 }
 
 .content-2 p {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 30px;
-    letter-spacing: .5px;
+    /* letter-spacing: .5px; */
+    font-family: 'Josefin Sans'
 }
 
 .content-3 {
@@ -541,7 +545,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width: 900px;
+    max-width: 740px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 100px;
@@ -550,16 +554,14 @@ body {
 }
 
 .content-4 h2 {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 28px;
+    line-height: 35px;
     font-weight: 900;
-    letter-spacing: 1px;
 }
 
 .content-4 p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
-    letter-spacing: .5px;
 }
 
 .container-3 {
@@ -598,9 +600,9 @@ body {
 }
 
 .main-content h3 {
-    font-size: 28px;
-    line-height: 32px;
-    letter-spacing: 2px;
+    font-size: 24px;
+    line-height: 42px;
+    /* letter-spacing: 2px; */
     font-weight: bold;
 }
 
@@ -642,6 +644,7 @@ body {
 .footer-1 li {
     list-style: none;
     margin: 5px;
+    font-size: 15px;
 
 }
 
@@ -665,6 +668,7 @@ body {
 .footer-2 li {
     list-style: none;
     margin: 5px;
+    font-size: 15px;
 
 }
 
@@ -689,14 +693,18 @@ body {
 .footer-3 a {
     text-decoration: none;
     color: black;
+    line-height: 30px;
+    font-size: 15px;
 }
 
 #education {
     font-weight: bold;
+    font-size: 18px;
 }
 
 #sign-up {
     font-weight: bold;
+    font-size: 18px;
 }
 
 .input {
@@ -706,7 +714,7 @@ body {
 
 #input {
     width: 283px;
-    height: 30px;
+    height: 39px;
     border: 0;
     border-radius: 0;
     margin-top: 1px;
@@ -715,7 +723,7 @@ body {
 }
 
 .sign input {
-    height: 34px;
+    height: 41px;
     width: 69px;
     padding-left: 12px;
     padding-right: 10px;
@@ -731,6 +739,7 @@ body {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 50px;
 
 }
 
@@ -745,6 +754,7 @@ body {
 .community li {
     list-style: none;
     margin: 5px;
+    font-size: 15px;
 }
 
 .community a {
@@ -753,7 +763,7 @@ body {
 }
 
 .community-1 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -767,6 +777,7 @@ body {
 .distributors li {
     list-style: none;
     margin: 5px;
+    font-size: 15px;
 }
 
 .distributors a {
@@ -775,7 +786,7 @@ body {
 }
 
 .distributor-1 {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -788,7 +799,7 @@ body {
 
 .language li {
     list-style: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     margin: 5px;
 }
@@ -853,6 +864,7 @@ body {
     text-decoration: none;
     color: black;
     font-size: 13px;
+    font-weight: 600;
 }
 
 .make {
@@ -989,13 +1001,10 @@ body {
     }
 
     .container {
-        width: 99%;
+        width: 100%;
         height: 224px;
         position: relative;
         padding-top: 10px;
-
-
-
 
     }
 
@@ -1006,24 +1015,36 @@ body {
         right: 0;
     }
 
+    .photo-both {
+        width: 100%;
+    }
+
     .photo-1 {
-        width: 156px;
-        height: 168px;
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        height: 100%;
+        /* width: 156px; */
+        /* height: 168px; */
+        
 
 
 
     }
 
     .photo-1 img {
-        width: 156px;
+        width: 165px;
         height: 168px;
+        margin-left: 2rem;
     }
 
     .photo-2 {
-        width: 120px;
-        height: 131px;
+        width: 100%;
+        height: 83%;
+        /* width: 120px; */
+        /* height: 131px; */
         position: relative;
-        left: 20%;
+        
 
 
     }
@@ -1031,7 +1052,7 @@ body {
     .photo-2 img {
         width: 127px;
         height: 100px;
-
+        margin-right: 2rem;
     }
 
     .content-1 {
@@ -1344,8 +1365,10 @@ body {
     }
 
     .footer-4 {
-        width: 95%;
-        flex-direction: column;
+      
+    width: 95%;
+    flex-direction: column;
+    padding-top: 0px;
 
     }
 
@@ -1465,16 +1488,21 @@ body {
     }
 
     .container {
-        width: 99%;
+        width: 100%;
         height: 405px;
         padding-top: 30px;
 
+    }
+
+    .photo-both {
+        width: 100%;
     }
 
     .background-1 {
         width: 59%;
         height: 100%;
     }
+
 
     .photo-1 {
         width: 40%;
@@ -1489,16 +1517,20 @@ body {
     }
 
     .photo-2 {
-        width: 34%;
-        height: 52%;
-        right: 8%;
-        margin-top: 12%;
+      
+    width: 34%;
+    height: 52%;
+    /* right: 5%; */
+    /* margin-top: -3%; */
+    padding-top: 13%;
+    padding-left: 13%;
 
     }
 
     .photo-2 img {
-        width: 100%;
-        height: 100%;
+        width: 40%;
+        height: 51%;
+        padding-top: 0px;
     }
 
     .content-1 {
@@ -1551,7 +1583,7 @@ body {
     }
 
     .container-1 {
-        width: 99%;
+        width: 100%;
         height: 500px;
         padding-top: 30px;
 
