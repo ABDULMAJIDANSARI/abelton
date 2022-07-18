@@ -1143,63 +1143,64 @@ body {
     .container-1 {
         width: 99%;
         padding-top: 0;
-        height: 386px;
+        height: 330px;
+        
     }
 
 
     .background-2 {
-        width: 304px;
-        height: 347px;
+        width: 60%;
+        height: 100%;
         position: absolute;
-
     }
 
     .image-content {
         display: flex;
+        justify-content: space-evenly;
         flex-direction: column;
-        width: 155px;
-        height: 315px;
-        top: 10%;
+        width: 52%;
+        height: 330px;
+        top: 0;
         left: 7%;
 
     }
 
     .photo-3 {
-        width: 200px;
-        height: 181px;
+        width: 73%;
+        height: 38%;
     }
 
     .photo-3 img {
-        width: 150px;
-        height: 120px;
+        width: 100%;
+        height: 100%;
     }
 
 
     .photo-4 {
-        width: 100%;
-        height: 200px;
+        width: 73%;
+        height: 38%;
     }
 
     .photo-4 img {
-        width: 150px;
-        height: 120px;
+        width: 100%;
+        height: 100%;
 
     }
 
     .photo-5 {
-        width: 179px;
-        height: 190px;
-        position: relative;
-        left: 49%;
-        top: 19%;
+        width: 40%;
+        height: 47%;
+        position: absolute;
+        left: 53%;
+        top: 24%;
 
 
     }
 
     .photo-5 img {
-        width: 158px;
-        height: 188px;
-        margin-left: 14px;
+        width: 100%;
+        height: 100%;
+        
 
 
     }
@@ -1254,7 +1255,7 @@ body {
 
     .background-3 {
         width: 68%;
-        height: 227px;
+        height: 244px;
         left: 17%;
     }
 
@@ -1266,7 +1267,7 @@ body {
     }
 
     .photo-7 img {
-        width: 97%;
+        width: 100%;
         height: 100%;
 
     }
@@ -1353,9 +1354,11 @@ body {
     .footer-1 {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 99%;
         order: 2;
         padding-top: 10px;
+        margin-left: 0.5rem;
+        
     }
 
     .footer-1 a {
@@ -1368,6 +1371,7 @@ body {
         width: 100%;
         order: 3;
         padding-top: 20px;
+        margin-left: 0.5rem;
     }
 
     .footer-2 a {
@@ -1398,16 +1402,17 @@ body {
     }
 
     .footer-4 {
-
         width: 95%;
         flex-direction: column;
         padding-top: 0px;
+        
 
     }
 
     .community {
         width: 100%;
         padding-top: 20px;
+        margin-left: 0.5rem;
     }
 
     .community a {
@@ -1417,6 +1422,7 @@ body {
     .distributors {
         width: 100%;
         padding-top: 20px;
+        margin-left: 0.5rem;
     }
 
     .distributors a {
@@ -1426,6 +1432,7 @@ body {
     .language {
         width: 100%;
         padding-top: 20px;
+        margin-left: 0.5rem;
     }
 
     .last-footer {
@@ -1443,6 +1450,7 @@ body {
     .make {
         width: 162px;
         flex-direction: row-reverse;
+        margin-left: 0.5rem;
     }
 
 
@@ -1613,7 +1621,7 @@ body {
 
 .container-1 {
     width: 100%;
-    height: 500px;
+    height: 632px;
     padding-top: 30px;
 
 }
@@ -1653,7 +1661,7 @@ body {
 
 .photo-5 {
     width: 40%;
-    height: 60%;
+    height: 52%;
     top: 22%;
     left: 55%;
 }
