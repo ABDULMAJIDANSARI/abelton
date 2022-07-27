@@ -756,24 +756,26 @@ body {
 
 #input {
     width: 283px;
-    height: 39px;
+    height: 35px;
     border: 0;
     border-radius: 0;
     margin-top: 1px;
     background: transparent;
     background-color: #eee;
+    padding-left: 12px;
 }
 
 .sign input {
-    height: 41px;
-    width: 69px;
+    height: 38px;
+    width: 84px;
     padding-left: 12px;
-    padding-right: 10px;
+    padding-right: 12px;
     background-color: blue;
     color: white;
     border: 0;
     cursor: pointer;
 }
+
 
 .footer-4 {
     display: flex;
@@ -865,6 +867,7 @@ body {
     font-weight: bold;
     border: 0;
     border-radius: 0;
+    padding-left: 5px;
 }
 
 .india select {
@@ -876,6 +879,7 @@ body {
     font-weight: bold;
     border: 0;
     border-radius: 0;
+    padding-left: 5px;
 }
 
 .last-footer {
@@ -899,6 +903,7 @@ body {
 .last-contents li {
     list-style: none;
     margin: 5px;
+    font-family: 'Josefin Sans';
 
 }
 
@@ -1388,6 +1393,14 @@ body {
 
     }
 
+    .sign input {
+        width: 84px;
+        height: 34px
+    }
+#input{
+    width: 100%;
+    height: 32px;
+}
     .footer-3 a {
         font-size: 14px;
     }
@@ -1859,7 +1872,7 @@ body {
 
     }
 
-    .make{
+    .make {
         flex-direction: row-reverse;
     }
 
